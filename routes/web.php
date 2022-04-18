@@ -19,3 +19,28 @@ Route::get('/', function () {
         'active' => 'home'
     ]);
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/list', function () {
+    return view('list');
+});
+
+Route::get('/union', function () {
+    return view('union');
+});
+
+Route::get('/reservasi', function () {
+    return view('reservasi');
+});
+
+Route::get('/reservasiku', function () {
+    return view('reservasiku');
+});
+

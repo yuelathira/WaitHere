@@ -20,7 +20,6 @@
       pink .container .button {
           width : 272px;
           height : 69px;
-
       }
   </style>
   <body>
@@ -32,13 +31,13 @@
                     <img src="img/home/logo.png" style="text-align:left; width:70px; height:70px;margin-top:-13px;margin-left:-50px;">
                 </div>
                 <div class="col-sm-3" style="color: #FAF2DA;font-family: roboto;font-weight: bold; font-size:20px; margin-top: 7px;margin-left: -40px;">
-                    <a>Home</a>
+                    <a style="color: #FAF2DA; text-decoration: none" href="/">Home</a>
                 </div>
                 <div class="col-sm-3" style="color: #FAF2DA;font-family: roboto;font-weight: bold; font-size:20px; margin-top: 7px;margin-left: -10px;">
-                    <a>Restaurants</a>
+                    <a style="color: #FAF2DA; text-decoration: none" href="/list">Restaurants</a>
                 </div>
                 <div class="col-sm-3" style="color: #FAF2DA;font-family: roboto;font-weight: bold; font-size:20px; margin-top: 7px;margin-left: 45px;">
-                    <a>Reservasiku</a>
+                    <a style="color: #FAF2DA; text-decoration: none" href="/reservasiku">Reservasiku</a>
                 </div>
             </div>
             <div class="col-sm-3" class="form-outline">
@@ -48,7 +47,7 @@
                 <img src="img/home/user.png" align="right" style="width:40px; height:40px;margin-top:-13px;margin-right:60px;">
             </div>
             <div class="col-sm-8" align="right" style="color: #FAF2DA;font-family: roboto;font-weight: bold; font-size:20px;margin-top:-75px;margin-left:450px;">
-                <a>Login</a>
+                <a style="color: #FAF2DA; text-decoration: none" href="/login">Login</a>
                 </div>
             </div>
           </div>
