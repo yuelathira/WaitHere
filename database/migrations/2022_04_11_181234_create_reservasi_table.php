@@ -14,7 +14,7 @@ class CreateReservasiTable extends Migration
     public function up()
     {
         Schema::create('reservasi', function (Blueprint $table) {
-            $table->bigInteger('reservasi_id');
+            $table->id('reservasi_id');
             $table->bigInteger('restoran_id');
             $table->bigInteger('user_id');
             $table->integer('jumlah');

@@ -14,7 +14,7 @@ class CreateReceiptTable extends Migration
     public function up()
     {
         Schema::create('receipt', function (Blueprint $table) {
-            $table->bigInteger('booking_id');
+            $table->id('booking_id');
             $table->bigInteger('restoran_id');
             $table->bigInteger('user_id');
             $table->bigInteger('reservasi_id');

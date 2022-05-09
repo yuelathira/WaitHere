@@ -14,8 +14,7 @@ class CreateRestoranTable extends Migration
     public function up()
     {
         Schema::create('restoran', function (Blueprint $table) {
-            $table->id();
-            $table->bigInteger('restoran_id');
+            $table->id('restoran_id');
             $table->string('nama_restoran', 50);
             $table->text('alamat_restoran');
             $table->integer('notelp_resto');
